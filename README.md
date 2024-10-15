@@ -86,8 +86,8 @@ result.trace
 
 >>> Main Event: TranslationTaskEvent(text="你好，世界！"), Received Agent: [senior_translator].
 >>> Agent Execute Log: name=senior_translator, result=Hello, World!
->>> Event: TranslationResultSubmitEvent(from=junior_translator, text="Hello, World!"), Received Agent: [senior_translator].
+>>> Event: TranslationResultSubmitEvent(from=junior_translator, text="Hello, World!"). Received by: [senior_translator].
 >>> Agent Execute Log: name=senior_translator, result=PASSED
->>> Event: TranslationReviewSubmitEvent(from=senior_translator, text="PASSED"), Received Agent: [junior_translator].
->>> Task Finished. Final Result: Hello, World!
+>>> Event: TranslationReviewSubmitEvent(from=senior_translator, text="PASSED"). Received by: [junior_translator].
+>>> Task Finished. Final result: Hello, World!
 ```
